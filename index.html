@@ -6,6 +6,7 @@
     Wecome to my Vlog
   </title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       font-family: "Verdana";
@@ -14,8 +15,9 @@
     }
 
     nav,
-    main {
-      margin-left: 10px;
+    main , div {
+      padding: 10px;
+      box-sizing: border-box;
     }
   </style>
 </head>
@@ -40,9 +42,9 @@
   <hr style="background-color: rgb(155, 26, 26); height:1px;border:0px;">
 
   <main>
-    <div style="width:70%;height:100%; margin-left: 50px; margin-top:-20px;float:right">
+    <div style="width:70%;height:100%;float:right">
       <h3 style="color: rgb(99, 13, 13)"><i>My favoite websites</i></h3>
-      <a href="https://www.tsn.ca/nfl" target="_blank"><img src="tsn.jpg" alt="websites of TSN"
+      <a href="https://www.tsn.ca/nfl" target="_blank"><img src="TSN.jpg" alt="websites of TSN"
           style="width: 300px; height:150px; margin: 10px"></a>
       <a href="https://www.arkadium.com/free-online-games/card/" target="_blank"><img src="playing cards.jpg"
           alt="websites of playing card" style="width: 300px; height:150px; margin: 10px;"></a>
@@ -56,12 +58,12 @@
           style="width: 300px; height:150px; margin: 10px;"></a>
     </div>
 
-    <div style="height:100%;width:30%;">
+    <div style="height:100%;width:30%; float: right; padding-right: 30px;">
       <h3>Introducing Myself</h3>
       <p style="text-align: justify; color:rgb(11, 11, 167)">My name is Wende Gao. I have a nick name called Kevin. I
         have been Canada for 10 years and I have been working in retail industry. I would like to change my career. I am
         pursuing a <b><em>home-based</em></b> job. I started in Centennial College.</p>
-
+      <br>
       <h3>My favorite activities</h3>
       <ul style="color:rgb(11, 11, 167)">
         <li style="margin-top: 10px">Football</li>
@@ -74,11 +76,13 @@
     </div>
 
   </main>
-  <hr style="background-color: rgb(155, 26, 26); height:1px;border:0px;">
-
+  
+  
   <footer>
-    <h4 style="color:rgb(122, 12, 12); text-align-last: center;">Copyright &copy Wende Gao, COURSE:COMP213011-2022F,
+    <div style="border-top: 1px solid red; float: right; width: 100%;">
+    <h4 style="color:rgb(122, 12, 12); text-align-last: center; margin-top: -5px;">Copyright &copy Wende Gao, COURSE:COMP213011-2022F,
       Semester 1. All Rights Reserved.</h4>
+    </div>
   </footer>
 
 </body>
