@@ -1,0 +1,158 @@
+html {
+    width: 980px;
+    background-color: rgb(144, 159, 226);
+    margin: auto ;
+}
+
+:root {
+    font-family: sans-serif;
+}
+body {
+    margin: auto;
+    width: 700px;
+}
+
+header {
+
+    background: url(porsche_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+
+}
+
+#logo {
+  height: 100px;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    color:rgb(25, 28, 32);
+    font-style:oblique;
+    font-weight: 400;
+    top: 330px;
+    left: 200px;
+}
+
+h5 {
+    color: blue;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+#discription-pic {
+    width: 50%;
+    float:left;
+    height: 460px; 
+    background-color:white;
+    margin:auto;
+    padding-top: 20px;
+    overflow:hidden;  
+    position: relative;
+}
+
+
+.gt3 {
+    width: 350px;
+    margin-top: 0;
+}
+
+.caption {
+    margin-top: -30px;
+    text-align: center;
+   
+}
+
+#text{
+    width: 320px;
+    float:left;
+    height: 460px;
+    text-align: justify;
+    padding-right: 30px;
+    background-color:white;
+    padding-top: 20px;
+}
+
+li {
+    height: 20px;
+    font-style: italic;
+}
+
+
+
+#table-block {
+    width: 100%;
+    float:left;
+    height: 250px;
+    background-color: white;
+    padding-top: 50px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+table {
+ 
+    margin-left: 25px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(110, 225, 207);
+}
+
+th, td {
+ 
+    margin: 0;
+    border: 0;
+    padding: 0;
+    column-width: 160px;
+    text-align: left;
+    height: 2em;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(200  , 200, 200);
+}
+
+#map-caption {
+    text-align: center;
+    margin: 0;
+}
+#map {
+    background-color: white;
+}
+
+
+footer {
+    background-color: steelblue;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+
+}
+h4 {
+    margin: 0;
+}
+
+
+
+a:visited {
+    color:rgb(90, 9, 9);
+}
+
+a:link {
+    color: #3c18e0;
+}
+a:hover {
+    color:rgb(223, 19, 162);}
