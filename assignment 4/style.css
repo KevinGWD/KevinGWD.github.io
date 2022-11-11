@@ -64,7 +64,7 @@ header img {
     width: auto;
     position: absolute;
     top: 14%;
-    left: 18%;
+    left: 15%;
     margin:0;
     padding:0;
 
@@ -88,13 +88,13 @@ header img:hover{
 .under_header {
     font-family: sans-serif, Arial, Helvetica;
     min-width: 1400px;
-    background-color: #D4DF38;
-    opacity: 80%;
+    background-color: #d0d67e;
+    /*opacity: 80%;*/
     background-image: url(vlogo.jpg), url(collegebuilding.png),url(studygroup.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: 5em, 95%, 95%;
-    background-position-y:0em, 5em, 30em;
+    background-position-x: 5em, 98%, 98%;
+    background-position-y:0em, 5em, 28em;
     background-size:16em, 25em, 25em;  
     
     
@@ -102,9 +102,9 @@ header img:hover{
 
 
 form{
-    width: 60%;
+    width: 40%;
     min-width: 550px;
-    max-width: 700px;
+   
     margin: auto;
 
 
