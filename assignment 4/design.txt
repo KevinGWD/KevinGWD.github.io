@@ -1,0 +1,12 @@
+high light when hover
+
+backgound white when valid
+
+* before required content
+
+add section list 
+
+content lable grow to up when focus
+
+
+

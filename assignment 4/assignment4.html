@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="En">
+
+<head>
+    <title>Centennial College Questionare Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!--Wende Gao, 301289601, Assignment4-->
+
+
+<header>
+    <a href="https://www.centennialcollege.ca/"><img src="ctnlogo.png" alt="centennialcollege logo"></a>
+    <a href="http://kevingwd.github.io"><button>HOME PAGE</button></a>
+    <div>
+    <h1>CENTENNIAL COLLEGE</h1>
+    <h2>Contining Education Course/Instruction Evaluation</h2>
+    </div>
+    
+</header>
+
+<div class="topic">
+    
+    <p>* Please read each statement carefully. Give only <b>one answer</b> for earch question.</p>
+</div>
+
+<div class="under_header">
+    
+
+    <form>
+        
+        <label class="question"  for="courseName">Course Name/Code</label>
+        <input type="text" name="courseName" id="courseName">  &nbsp;&nbsp; &nbsp;  
+        
+        <label for="instructor">Instructor</label>
+        <select name="instructor" id="instructor" required>
+           <option name="instructor" id="empty" value="1" disabled selected></option>
+           <option name="instructor" id="Havord" value="2">Havord</option>
+           <option name="instructor" id="Bob" value="3">Bob</option>
+           <option name="instructor" id="Jorge" value="4">Jorge</option>
+           <option name="instructor" id="Ian" value="5">Ian</option>
+           
+
+
+        </select><br>
+
+
+        <label class="question"  for="semester">Semester</label>
+
+            <input type="radio" name="semester" id="fallCourse" value="Fall">
+            <label for="fallCourse">Fall</label>
+
+            <input type="radio" name="semester" id="winterCourse" value="Winter">
+            <label for="winterCourse">Winter</label>
+
+            <input type="radio" name="semester" id="springCourse" value="Spring/Summer">
+            <label for="springCourse">Spring/Summer</label> 
+
+
+        <label for="year">Year</label>
+            <input type="number" id="year" name="year" min="1" max="3" >
+
+
+
+
+
+        <fieldset id="instructor">
+            <legend>INSTRUCTOR</legend>
+            <p>How would syou rate the instructor's</p>
+
+            <ol>
+              <li>
+                <label class="question" for="knowledge"><b>knowledge</b> of subject?</label> <br>
+                <input type="radio" name="knowledge" id="excellent" value="Excellent">
+                    <label for="Excellent">Excellent</label>
+                
+                <input type="radio" name="knowledge" id="good" value="Good">
+                    <label for="Good">Good</label>
+
+                <input type="radio" name="knowledge" id="fair" value="Fair">
+                    <label for="Fair">Fair</label>
+                <input type="radio" name="knowledge" id="notSatisfactory" value="NotSatisfactory">
+                    <label for="NotSatisfactory">Not Satisfactory</label>
+              </li>
+
+              <li>
+                <label class="question" for="help"><b>helpfulness</b> ?</label><br>
+                <input type="radio" name="help" id="excellent" value="Excellent">
+                    <label for="Excellent">Excellent</label>
+                
+                <input type="radio" name="help" id="good" value="Good">
+                    <label for="Good">Good</label>
+
+                <input type="radio" name="help" id="fair" value="Fair">
+                    <label for="Fair">Fair</label>
+                <input type="radio" name="help" id="notSatisfactory" value="NotSatisfactory">
+                    <label for="NotSatisfactory">Not Satisfactory</label>
+              </li>
+
+              <li>                
+                <label class="question" for="respect"><b>courtesy and respect</b> for all students?</label><br>
+                <input type="radio" name="respect" id="excellent" value="Excellent">
+                    <label for="Excellent">Excellent</label>
+                
+                <input type="radio" name="respect" id="good" value="Good">
+                    <label for="Good">Good</label>
+
+                <input type="radio" name="respect" id="fair" value="Fair">
+                    <label for="Fair">Fair</label>
+
+                <input type="radio" name="respect" id="notSatisfactory" value="NotSatisfactory">
+                    <label for="NotSatisfactory">Not Satisfactory</label>
+                </li>
+
+
+              <li>
+                <label class="question" for="communication"><b>communication</b> skills?</label><br>
+                <input type="radio" name="communication" id="excellent" value="Excellent">
+                    <label for="Excellent">Excellent</label>
+                
+                <input type="radio" name="communication" id="good" value="Good">
+                    <label for="Good">Good</label>
+
+                <input type="radio" name="communication" id="fair" value="Fair">
+                    <label for="Fair">Fair</label>
+                <input type="radio" name="communication" id="notSatisfactory" value="NotSatisfactory">
+                    <label for="NotSatisfactory">Not Satisfactory</label>
+              </li>
+
+
+
+              <li>
+                <label class="question" for="performance">overall <b>performance</b>?</label>
+                0<input type="range" name="performance" id="performance" >100
+               </li>
+
+            </ol>
+
+
+        </fieldset>
+
+        
+        <fieldset id="course">
+            <legend>COURSE</legend>
+         
+            <ol>
+                <li>
+                    <label class="question" for="courseMaterials">How would you rate the <b>course materials</b></label><br>
+                    <input type="radio" name="courseMaterials" id="excellent" value="Excellent">
+                        <label for="Excellent">Excellent</label>
+                    
+                    <input type="radio" name="courseMaterials" id="good" value="Good">
+                        <label for="Good">Good</label>
+    
+                    <input type="radio" name="courseMaterials" id="fair" value="Fair">
+                        <label for="Fair">Fair</label>
+                    <input type="radio" name="courseMaterials" id="notSatisfactory" value="NotSatisfactory">
+                        <label for="NotSatisfactory">Not Satisfactory</label>
+                  </li>
+    
+                  <li>
+                    <label class="question" for="expectations">How much did this course meet your <b>expectations</b>?</label><br>
+                    <input type="radio" name="expectations" id="excellent" value="Excellent">
+                        <label for="Excellent">Excellent</label>
+                    
+                    <input type="radio" name="expectations" id="good" value="Good">
+                        <label for="Good">Good</label>
+    
+                    <input type="radio" name="expectations" id="fair" value="Fair">
+                        <label for="Fair">Fair</label>
+                    <input type="radio" name="expectations" id="notSatisfactory" value="NotSatisfactory">
+                        <label for="NotSatisfactory">Not Satisfactory</label>
+                  </li>
+    
+                  <li>
+                    <label class="question" for="courseOverall">How would you rate this course (<b>overall</b>)?</label>
+                    0<input type="range" name="courseOverall" id="courseOverall" >100
+                   </li>
+            </ol>
+
+        </fieldset>
+
+
+        <fieldset id="generalInfomation">
+            <legend>GENERAL INFORMATION</legend>
+
+            <ol>
+                <li>
+                    <label class="question" for="courseOutline">Was the <b>course outline</b> reviewed/explained at the beginning of your course?</label><br>
+                    <input type="checkbox" name="courseOutline" id="yes" value="Yes">
+                        <label for="Yes">Curiculum</label>
+                    
+                    <input type="checkbox" name="courseOutline" id="no" value="No">
+                        <label for="No">Mark Rubic</label>
+    
+                    <input type="checkbox" name="courseOutline" id="notSure" value="NotSure">
+                        <label for="NotSure">Resources</label>
+
+                        <input type="checkbox" name="courseOutline" id="notSure" value="NotSure">
+                        <label for="NotSure">Assessment</label>
+
+                  </li>
+    
+                  <li>
+                    <label class="question" for="expectations">How much did this course meet your <b>expectations</b>?</label><br>
+                    <input type="radio" name="expectations" id="excellent" value="Excellent">
+                        <label for="Excellent">Excellent</label>
+                    
+                    <input type="radio" name="expectations" id="good" value="Good">
+                        <label for="Good">Good</label>
+    
+                    <input type="radio" name="expectations" id="fair" value="Fair">
+                        <label for="Fair">Fair</label>
+                    <input type="radio" name="expectations" id="notSatisfactory" value="NotSatisfactory">
+                        <label for="NotSatisfactory">Not Satisfactory</label>
+                  </li>
+    
+            </ol>
+
+
+        </fieldset>
+        <fieldset id="otherComments">
+            <legend>ANY OTHER COMMENTS</legend>
+
+            <ol>
+                <li>
+                <label class="question" for="bestThing">What is the <b>best thing</b> about this course?</label> <br>
+                <textarea name="bestThing" id="bestThing" rows="12" cols="35" placeholder="Please comment here"></textarea>>
+                </li>
+                <li>
+                    <label class="question" for="imporve">How could we <b>improve</b> this course?</label> <br>
+                    <textarea name="imporve" id="imporve" rows="12" cols="35" placeholder="Please comment here"></textarea>>
+                </li>
+                <li>
+                    <label class="question" for="other">other: </label> <br>
+                  
+                    <textarea  name="other" id="other" rows="12" cols="35" placeholder="Please comment here"></textarea>  
+                </li>
+            </ol>
+
+       </fieldset>
+
+       <input class="submit" type="submit" >
+       <input class="reset" type="reset">
+
+    </form>
+    <br><br>
+    <footer>
+        <i><h2>Thank You! We pay attention to your feedback!</h2>
+        <p>Web: <a href="http://www.centennialcollege.ca" target="_blanck">www.centennialcollege.ca</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: <a href="mailto:continuingeducationm@centennialcollege.ca">continuingeducationm@centennialcollege.ca</a></p>  
+         </i>
+         <br>
+         <hr><br>
+         <h4>Assignment
+            4&nbsp;&nbsp;&nbsp;COURSE:COMP213011-2022F,
+            Semester 1</h4>
+      
+          <h4>Copyright &copy Wende Gao, All Rights
+            Reserved.</h4><br>
+    </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</html>
