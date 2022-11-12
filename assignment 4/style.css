@@ -1,61 +1,52 @@
-
-
-
-*{
-    margin:0;
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
-header div{
+header div {
     width: 60%;
-   
     min-width: 1000px;
     margin: auto;
-    
 }
 
-h1, h2{
-    padding:0;
-    margin:-5px;
-    font-weight: 50;
+h1,
+h2 {
+    padding: 0;
+    margin: -5px;
+    font-weight: 400;
     font-size: 3vh;
-    word-wrap:normal;
-
+    word-wrap: normal;
 }
 
 header {
     width: 100%;
-    height: 70.59px;
+    /*height: 70.59px;*/
     position: relative;
     text-align: center;
     box-shadow: 0px 0px 8px 5px hsl(0, 4%, 86%);
-    margin:0;
-    padding-top:20px;
+    margin: 0;
+    padding-top: 20px;
     background-color: white;
     min-width: 1400px;
-
-
 }
-header button:hover{
+
+header button:hover {
     background-color: rgb(144, 163, 60);
-    color:white;
+    color: white;
 }
 
-header button{
+header button {
     position: absolute;
-    float:right;
-    top:30%;
-    right:15%;
-    border:none;
+    float: right;
+    top: 30%;
+    right: 15%;
+    border: none;
     border-radius: 5px;
-    font-size:large;
-    font-weight:500;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 500;
+
     padding: 10px;
     background-color: #D4DF38;
-
-
 }
 
 header img {
@@ -65,24 +56,20 @@ header img {
     position: absolute;
     top: 14%;
     left: 15%;
-    margin:0;
-    padding:0;
-
-
+    margin: 0;
+    padding: 0;
 }
 
-header img:hover{
-    box-shadow:0 0 5px 2px #D4DF38
+header img:hover {
+    box-shadow: 0 0 5px 2px #D4DF38
 }
 
-.topic{
+.topic {
     height: 70px;
     text-align: center;
     font-size: 1.25em;
     margin-top: 25px;
     min-width: 1400px;
-   
-    
 }
 
 .under_header {
@@ -90,76 +77,80 @@ header img:hover{
     min-width: 1400px;
     background-color: #d0d67e;
     /*opacity: 80%;*/
-    background-image: url(vlogo.jpg), url(collegebuilding.png),url(studygroup.png);
+    background-image: url(vlogo.jpg), url(collegebuilding.png), url(studygroup.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: 5em, 98%, 98%;
-    background-position-y:0em, 5em, 28em;
-    background-size:16em, 25em, 25em;  
-    
-    
+    background-position-y: 0em, 5em, 28em;
+    background-size: 16em, 25em, 25em;
 }
 
-
-form{
+form {
     width: 40%;
     min-width: 550px;
-   
     margin: auto;
-
-
 }
-
-
-
 
 label {
     overflow: visible;
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 0;
-    margin-left:0;
+    margin-left: 0;
     display: inline-block;
-    
-}
-fieldset{
-    margin-top: 20px;
-    
 }
 
-textarea{
+fieldset {
+    margin-top: 20px;
+}
+
+textarea {
     width: 90%;
     min-width: 90%;
     min-height: 4em;
     word-wrap: normal;
-    
-
 }
-.submit, .reset{
-    width:49.5%;
+
+.submit,
+.reset {
+    width: 49.5%;
     height: 3em;
     font-size: x-large;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: chartreuse;
 }
-.reset:hover{
-    background-color:rgb(226, 21, 21);
+
+.reset:hover {
+    background-color: rgb(226, 21, 21);
     color: white;
 }
- 
-input:hover{
-    background-color:rgb(144, 199, 199);
+
+input:hover {
+    background-color: rgb(218, 236, 236);
+    border: 3px solid rgb(219, 47, 47);
+}
+select:hover {
+    background-color: rgb(218, 236, 236);
+    border: 3px solid rgb(219, 47, 47);
 }
 
+textarea:hover {
+    background-color: rgb(218, 236, 236);
+    border: 3px solid rgb(219, 47, 47);
 
+}
 
-footer{
+textarea:focus {
+    background-color: rgb(218, 236, 236);
+    border: 3px solid rgb(219, 47, 47);
+}
+
+footer {
     text-align: center;
-    
 }
 
-footer h2{
+footer h2 {
     padding: 20px;
 }
