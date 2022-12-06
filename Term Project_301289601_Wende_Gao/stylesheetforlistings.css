@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family:sans-serif;
+}
+
+nav{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(17, 17, 58);
+    position: sticky;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    padding: 0;
+}
+
+
+nav li{
+list-style-type: none;
+color: aliceblue;
+padding-top: 1.2em;
+font-size: large;
+padding-left: 0;
+}
+
+.listitemcontainer{
+    display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+}
+
+.listitem {
+    
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+    box-shadow: 4px 8px 5px 5px #dbd9d9;
+    position: relative;
+   
+}
+
+.marksold{
+    color: rgb(196, 12, 12);
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:30%;
+    left: 35%;
+    
+    font-size: 1vw;
+}
+
+.listitem >img {
+    width: 100%;
+    height: 70%;   
+}
+
+img[src="listing2.png"] {
+    width: 100%;
+    height: 70%; 
+}
+img[src="listing1.png"] {
+    width: 100%;
+    height: 70%; 
+}
+img[src="listing3.png"] {
+    width: 100%;
+    height: 70%; 
+}
+
+.sold {
+    opacity: 0.5;
+      
+}
+
+
+.room{
+    width: 100%;
+    height: auto;
+    display: inline;
+    padding-left: 10px;
+}
+
+.roomsymbol{
+    width: 25px;
+    margin-bottom: -3px;
+
+}
+
+h1, p {
+    padding: 5px 10px;
+}

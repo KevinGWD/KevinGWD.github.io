@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel's Contact form</title>
+    <link rel="stylesheet" href="contact2.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="term_project.html">
+                <li>Home</li>
+            </a>
+            <a href="listings.html">
+                <li>Listings</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact Form</li>
+            </a>
+            <a href="site_map.html">
+                <li>Site Map</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="form-container">
+        <h1>Contact Form</h1>
+
+        <form action="mailto:gogohyy@gmail.com">
+            <div class="personal-inform">
+                <div class="firstname">
+                    <span>
+                        First Name:
+                    </span>
+                    <input type="text" name="name" id="firstname" required>
+                </div>
+                <div class="lastname">
+                    <span>
+                        Last Name:
+                    </span>
+                    <input type="text" name="name" id="lastname" required>
+                </div>
+                <div class="cellphone">
+                    <span>
+                        Cell phone:
+                    </span>
+                    <input type="phone" name="telphone" id="cellphone" required>
+                </div>
+                <div class="email">
+                    <span>
+                        Email:
+                    </span>
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
+            <div class="propertytype">
+                <div class="type">
+                    Type of property:
+                </div>
+                <div class="type">
+                    <label for="propertytype">Detached:</label>
+                    <input type="checkbox" name="propertytype" value="Detached">
+                </div>
+                <div class="type"><label for="propertytype">Semi-etached:</label>
+                    <input type="checkbox" name="propertytype" value="semi-detached">
+                </div>
+                <div class="type">
+                    <label for="propertytype">Condo:</label>
+                    <input type="checkbox" name="propertytype" value="condo">
+                </div>
+            </div>
+            <div class="roomtype">
+                <div>
+                    <span>Bedroom:</span>
+                    <input type="number" name="room" id="bedroom" value="number-of-bedroom" min="1" max="5">
+                </div>
+                <div>
+                    <span>Washroom:</span>
+                    <input type="number" name="room" id="washroom" value="number-of-washroom" min="1" max="5">
+                </div>
+            </div>
+            <div class="room-price">
+                <div>
+                    <span>Price from:</span>
+                    <input type="number" name="price" id="min-price">
+                </div>
+                <div>
+                    <span>to:</span>
+                    <input type="number" name="price" id="max-price">
+                </div>
+
+            </div>
+            <div class="message">
+                <textarea name="message" id="message" placeholder="Enter more information here"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">submit</button>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

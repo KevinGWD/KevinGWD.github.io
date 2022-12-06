@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family:sans-serif;
+    color:aliceblue;
+    text-decoration: none;
+}
+nav{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(17, 17, 58);
+    z-index: 100;
+  
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    padding: 0;
+}
+
+
+nav li{
+list-style-type: none;
+color: aliceblue;
+padding-top: 1.2em;
+font-size: large;
+padding-left: 0;
+}
+
+body
+{
+    margin:0;
+    background-image: linear-gradient(rgba(6, 6, 54, 0.6),rgba(5, 5, 41, 0.8)), url("hero.jpg");
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+form {
+    width: 40vw;
+    max-width: 650px;
+}
+input, textarea, button{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: large;
+}
+form>*{
+    padding:20px;
+}
+
+.personal-inform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.personal-inform>*{
+    width: 40%;
+    margin-bottom:20px;
+}
+.personal-inform input {
+    width: 100%;
+}
+.propertytype{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.propertytype.type{
+  flex:1
+}
+.roomtype{
+display: flex;
+justify-content: space-between;
+}
+
+
+.room-price{
+    display: flex;   
+    gap:30%;
+    
+    flex-wrap: wrap;
+}
+.room-price>*{
+    flex:1;
+}
+.room-price input{
+    width: 100%;
+}
+
+
+
+.room{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+textarea{
+    width:100%;
+    height: 300px;
+}
+
+button{
+   
+    width: 100%;
+    background:transparent;
+    border: 2px solid white;
+    height: 40px;
+    padding:0;
+}
+
+
+.personal-inform span::after{
+    content: "*";
+    color:red;
+    
+}
+
+textarea:hover{
+    border:2px solid yellow;
+}
+
+input:hover{
+    border:2px solid yellow;
+}
+textarea:focus{
+    border:2px solid yellow;
+
+}
+
+input:focus{
+    border:2px solid yellow;
+}
